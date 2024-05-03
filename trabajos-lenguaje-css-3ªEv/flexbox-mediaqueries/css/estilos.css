@@ -1,25 +1,45 @@
 @import "colors.css";
+@import "commons.css";
 
 
-
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Share Tech Mono;
-}
-
-#logo{
-    height: 200px;
-}
+/*Header css*/
 
 header{
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.318);
+}
+#imagen{
+    height: 200px;
+}
+#logo{
+    background-color: var(--color-green-opacity);
+    margin: 15px;
 }
 
+/*NAV*/
+
+nav{
+    background-color: rgba(0, 0, 0, 0.318);
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+nav a{
+color: white; 
+background-color:  var(--color-green);  
+padding: 7px 40px; 
+border: 3px solid var(--color-green);
+border-radius: 10px;
+text-decoration: none;
+margin-bottom: 20px;
+
+}
+nav a:hover{
+background-color: black;
+color:  var(--color-green);
+}
 
 p{
     color: var(--color-green);
