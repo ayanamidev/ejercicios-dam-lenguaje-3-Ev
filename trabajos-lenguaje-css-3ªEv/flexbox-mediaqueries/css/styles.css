@@ -8,7 +8,29 @@ background-color: var(--color-primary);
 }
 #navbar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: var(--color-primary);
+    padding: 15px 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:800px){
+    #navbar{
+        flex-direction: column;
+       
+    }
+    nav a{
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+   
 }
 
 
