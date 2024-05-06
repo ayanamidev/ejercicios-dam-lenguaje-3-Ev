@@ -1,0 +1,15 @@
+@import "common.css";
+@import "colors.css";
+
+#logo{
+display: flex;
+justify-content: center;
+background-color: var(--color-primary);
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
